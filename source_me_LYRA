@@ -1,0 +1,4 @@
+rm -f Makefile nvblas.conf run_cpu.sh run_gpu.sh
+ln -s ./build_and_run/Makefile_LYRA Makefile
+
+
