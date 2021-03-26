@@ -6,14 +6,14 @@
 # The config file should have restricted write permissions accesses
 
 # Specify which output log file (default is stderr)
-NVBLAS_LOGFILE  nvblas.log
+#NVBLAS_LOGFILE  nvblas.log
 
 # Enable trace log of every intercepted BLAS calls
 #NVBLAS_TRACE_LOG_ENABLED
 
 #Put here the CPU BLAS fallback Library of your choice
 #It is strongly advised to use full path to describe the location of the CPU Library
-NVBLAS_CPU_BLAS_LIB  /sw/summit/essl/6.2.0-20190419/essl/6.2/lib64/libessl.so
+#NVBLAS_CPU_BLAS_LIB  /sw/summit/essl/6.2.0-20190419/essl/6.2/lib64/libessl.so
 #NVBLAS_CPU_BLAS_LIB  /usr/lib/libopenblas.so
 #NVBLAS_CPU_BLAS_LIB  <mkl_path_installtion>/libmkl_rt.so
 
@@ -25,13 +25,13 @@ NVBLAS_CPU_BLAS_LIB  /sw/summit/essl/6.2.0-20190419/essl/6.2/lib64/libessl.so
 
 #NVBLAS_GPU_LIST 0 2 4
 #NVBLAS_GPU_LIST ALL
-NVBLAS_GPU_LIST ALL0
+#NVBLAS_GPU_LIST ALL0
 
 # Tile Dimension
-NVBLAS_TILE_DIM 2048
+#NVBLAS_TILE_DIM 2048
 
 # Autopin Memory
-NVBLAS_AUTOPIN_MEM_ENABLED
+#NVBLAS_AUTOPIN_MEM_ENABLED
 
 #List of BLAS routines that are prevented from running on GPU (use for debugging purpose
 # The current list of BLAS routines supported by NVBLAS are
